@@ -56,7 +56,7 @@ button:hover{
     font-family: 'Courier New', Courier, monospace;
 }
 .navbar a:hover{
-    background-color: gray;
+    background-color: #1A1A1A;
     color: white;
     border-style: solid 1px;
     border-radius: 50px;
@@ -84,7 +84,7 @@ button:hover{
 .container h1{
     text-align: left;
     padding-top: 50px;
-    padding-left: 7%;
+    padding-left: 10%;
     color: black;
     width: 50%;
 
@@ -92,27 +92,31 @@ button:hover{
 .container p{
     text-align: left;
     max-width: 50%;
-    padding-left: 5%;
+    padding-left: 10%;
     color: rgb(67, 67, 67);
     font-family: 'Courier New', Courier, monospace;}    
+
 .container img{
     max-width: 50%;
-    width: 300px;
+    width: 500px;
     height: auto;
     float: right;
     padding-right: 50px;
     padding-top: 20px;
 }
 .container button{
-    margin-left: 5%;
+    margin-left: 10%;
     margin-top: 20px;
 }
 
 .fa-solid.fa-file{
     padding-right: 20px;
 }
-.fa-solid.fa-code{
+.fa-brands.fa-linkedin{
     padding-right: 20px;
+}
+.fa-solid.fa-code{
+    padding-right: 30px;
 }
 .aboutme{
     width: 100%;
@@ -125,15 +129,17 @@ button:hover{
 }
 .aboutme h2{
     text-align: left;
-    padding-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
     padding-left: 7%;
     color: black;
     width: 50%;
-
+    text-transform: uppercase;
+    font-weight: bold;
 }
 .aboutme p{
     text-align: left;
-    width: 50%;
+    width: 90%;
     padding-left: 5%;
     color: rgb(255, 255, 255);
     font-family: 'Courier New', Courier, monospace;
@@ -168,7 +174,7 @@ button:hover{
     padding-bottom: 10px;
     color: black;
     font-size: 30px;
-    margin-top: 50px;
+    margin-top: 80px;
     display: inline-block;
 }
 .skills p{
@@ -246,3 +252,50 @@ input, textarea {
 .fa-solid.fa-paper-plane{
     padding-right: 10px;
 }
+
+
+
+/*Footer CSS*/
+
+.footer-content{
+    width: 100%;
+    padding: 30px;
+    height: auto;
+    background-color: #1A1A1A;
+    display: flow-root;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.footer-content p{
+    color: white;
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.footer-content a{
+    text-decoration: none;
+}
+
+.fa-brands.fa-square-instagram.fa-2xl{
+    color: white;
+    padding: 10px;
+}
+.fa-brands.fa-linkedin.fa-2xl{
+    color: white;
+    padding: 10px;
+}
+.fa-brands.fa-github.fa-2xl{
+    color: white;
+    padding: 10px;
+}
+.fa-brands.fa-square-facebook.fa-2xl{
+    color: white;
+    padding: 10px;
+}
+.fa-solid.fa-angles-up.fa-lg{
+    color: white;
+    cursor: pointer;
+    padding-bottom: none;
+}
+
