@@ -35,10 +35,13 @@ button{
     font-weight: bold;
     cursor: pointer;
     padding: 10px 30px;
+    transition: 0.3s ease-in-out;
 }
 button:hover{
     background-color: lightgray;
     color: white;
+    transform: translateY(-5px);
+    transition: 0.3s ease-in-out;
 }
 
 .navbar{
@@ -46,6 +49,7 @@ button:hover{
     top: 0px;
     z-index: 100;
     padding-bottom: 50px;
+    
 }
 .navbar a{
     color: black;
@@ -70,9 +74,14 @@ button:hover{
     display: block;
 }
 .navbar li{
-    float: right
-}
+    float: right;
+    transition: 0.3s ease-in-out;
 
+}
+.navbar li:hover{
+    transform: translateY(-5px);
+    transition: 0.3s ease-in-out;
+}
 
 .container{
     width: 100%;
@@ -190,7 +199,15 @@ button:hover{
 .skills li{
     display: inline-block;
     padding: 50px;
+    transition: 0.3s ease-in-out;
+
 }
+.skills li:hover{
+    transform: translateY(-5px);
+    transition: 0.3s ease-in-out;
+    color: gray;
+
+}     
 
 .skills-list i{
     display: block;
@@ -198,15 +215,27 @@ button:hover{
     width: 60px;
     height: 60px;
     font-size: 50px;
+
+    
 }
+
+
 .skills-list span{
     display: block;
     margin: auto;
     padding-top: 10px;
     font-size: 20px;
     color: black;
-
+    transition: 0.3s ease-in-out;
 }
+
+.skills-list span:hover{
+    color: gray;
+    transform: translateY(-5px);
+    transition: 0.3s ease-in-out;
+}
+
+
 
 #form{
     width: 100%;
@@ -227,7 +256,13 @@ button:hover{
     margin: auto;
     margin-top: 20px;
     overflow: auto;
+    transition: 0.3s ease-in-out;
 }
+#form input:hover{
+    transform: translateY(-5px);
+    transition: 0.3s ease-in-out;   
+}
+
 #form textarea{
     width: 30%;
     height: 100px;
@@ -240,7 +275,13 @@ button:hover{
     margin: auto;
     margin-top: 50px;
     overflow: auto;
+    transition: 0.3s ease-in-out;
 }
+#form textarea:hover{
+    transform: translateY(-5px);
+    transition: 0.3s ease-in-out;
+}
+
 #form button{
     margin-top: 40px;
 }
@@ -266,6 +307,7 @@ input, textarea {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
 }
+
 .footer-content p{
     color: white;
     padding: 20px;
@@ -275,6 +317,14 @@ input, textarea {
 }
 .footer-content a{
     text-decoration: none;
+}
+.footer-content i{
+    transition: 0.3s ease-in-out;
+}
+.footer-content i:hover{
+    color: gray;
+    transform: translateY(-5px);
+    transition: 0.3s ease-in-out;
 }
 
 .fa-brands.fa-square-instagram.fa-2xl{
